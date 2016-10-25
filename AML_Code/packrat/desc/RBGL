@@ -1,0 +1,20 @@
+Package: RBGL
+Version: 1.46.0
+Title: An interface to the BOOST graph library
+Author: Vince Carey <stvjc@channing.harvard.edu>, Li Long
+        <li.long@isb-sib.ch>, R. Gentleman
+Maintainer: Bioconductor Package Maintainer
+ <maintainer@bioconductor.org>
+Depends: graph, methods
+Imports: methods
+Suggests: Rgraphviz, XML, RUnit, BiocGenerics
+Description: A fairly extensive and comprehensive interface to the
+        graph algorithms contained in the BOOST library.
+License: Artistic-2.0
+URL: http://www.bioconductor.org
+LazyLoad: yes
+biocViews: GraphAndNetwork, Network
+NeedsCompilation: yes
+Packaged: 2015-10-14 00:45:33 UTC; biocbuild
+Built: R 3.2.2; i386-w64-mingw32; 2015-10-14 09:16:08 UTC; windows
+Archs: i386, x64
